@@ -4,6 +4,8 @@ This is a demonstration of automated acceptance testing using the [nightwatch.js
 
 ## Installing
 
+Note: This requires a recent version of the [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) to be installed!
+
 1. Fork and clone
 1. `yarn` (or `npm install` if you're a square)
 1. `npm run dev` to start the Barkwire web app. It will be available at [http://localhost:3000](http://localhost:3000).
