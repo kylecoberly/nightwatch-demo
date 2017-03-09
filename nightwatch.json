@@ -1,0 +1,19 @@
+{
+    "src_folders": ["tests"],
+    "output_folder": "reports",
+    "selenium": {
+        "start_process": false,
+        "port": 4444
+    },
+    "test_settings": {
+        "default": {
+            "launch_url": "http://localhost",
+            "selenium_port": 4444,
+            "selenium_host": "localhost",
+            "silent": true,
+            "desiredCapabilities": {
+                "browserName": "phantomjs"
+            }
+        }
+    }
+}
