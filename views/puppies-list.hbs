@@ -1,0 +1,15 @@
+<ul>
+    {{#each puppies}}
+        <li class="puppy">
+            <h3>{{name}}</h3>
+            <section>
+                <figure>
+                    <img src="{{imageURL}}" alt="{{name}}" />
+                    <figcaption>{{imageCaption}}</figcaption>
+                </figure>
+                <p>{{description}}</p>
+            </section>
+        </li>
+    {{/each}}
+</ul>
+<a class="add" href="puppies/new">Add buddy</a>
